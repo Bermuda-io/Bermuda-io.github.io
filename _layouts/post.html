@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<article class="box">
+  <time datetime="{{page.date | date: "%Y-%m-%d"}}" title="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%B %Y"}}</time>
 
-<div class="post">
-{{ content }}
-</div>
+  <p>{{ page.excerpt | markdownify }}</p>
+
+  <a id="more"></a>
+  {{ content }}
+</article>
