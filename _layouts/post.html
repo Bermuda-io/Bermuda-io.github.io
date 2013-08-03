@@ -2,10 +2,7 @@
 layout: default
 ---
 <article class="box">
-  <time datetime="{{page.date | date: "%Y-%m-%d"}}" title="{{page.date | date: "%Y-%m-%d"}}">{{page.date | date: "%B %Y"}}</time>
+  <p><time datetime="{{page.date | date: "%Y-%m-%d"}}" title="{{page.date | date: "%Y-%m-%d"}}"><i class="icon-calendar"></i> {{page.date | date: "%B %Y"}}</time></p>
 
-  <p>{{ page.excerpt | markdownify }}</p>
-
-  <a id="more"></a>
   {{ content }}
 </article>
