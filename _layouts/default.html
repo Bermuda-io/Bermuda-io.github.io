@@ -35,73 +35,73 @@
   </head>
 
   <body>
-    <div class="body-wrap">
-      <div class="navbar navbar-fixed-top">
-        <div class="container">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://bermuda.io"><img src="/images/bermuda-io-ckan.png" alt=""></a>
-          <div class="nav-collapse collapse">
-            <ul class="nav navbar-nav navbar-bermuda">
-              <li><a href="/">Blog</a></li>
-              <li><a href="/categories.html">Categories</a></li>
-              <li><a href="/archives.html">Archives</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+    <div class="navbar navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://bermuda.io"><img src="/images/bermuda-io-ckan.png" alt=""></a>
+        <div class="nav-collapse collapse">
+          <ul class="nav navbar-nav navbar-bermuda">
+            <li><a href="/">Blog</a></li>
+            <li><a href="/categories.html">Categories</a></li>
+            <li><a href="/archives.html">Archives</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
-
-      <div class="main-body container">
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="page-header">
-              <h1>{{ page.title }}</h1>
-            </div>
-
-            {{ content }}
-          </div>
-          <div class="col-lg-4">
-            <div class="sidebar">
-              <h3>Contact Us</h3>
-              <div class="row">
-                <div class="col-1"><i class="icon-envelope"></i></div>
-                <div class="col-4 col-lg-10"><a href="mailto:info@bermuda.io">info@bermuda.io</a></div>
-              </div>
-              <h3>Subscribe</h3>
-              <div class="row">
-                <div class="col-1"><i class="icon-rss"></i></div>
-                <div class="col-4 col-lg-10"><a href="http://feedpress.me/bermuda">RSS</a></div>
-              </div>
-              <div class="row">
-                <div class="col-1"><i class="icon-github"></i></div>
-                <div class="col-4 col-lg-10"><a href="https://github.com/bermuda-io">GitHub</a></div>
-              </div>
-              <div class="row">
-                <div class="col-1"><i class="icon-twitter"></i></div>
-                <div class="col-4 col-lg-10"><a href="https://twitter.com/bermudaio">Twitter</a></div>
-              </div>
-              <div class="row">
-                <div class="col-1"><i class="icon-facebook"></i></div>
-                <div class="col-4 col-lg-10"><a href="http://www.facebook.com/Bermuda.io">Facebook</a></div>
-              </div>
-
-            </div><!-- /.sidebar -->
-          </div>
-        </div>
-      </div><!-- /.container -->
-      <div class="push"></div>
     </div>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
-            <small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</small>
+    <div class="main-body container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="page-header">
+            <h1>{{ page.title }}</h1>
           </div>
+
+          {{ content }}
+        </div>
+        <div class="col-lg-4">
+          <div class="sidebar">
+            <h3>Contact Us</h3>
+            <div class="row">
+              <div class="col-1"><i class="icon-envelope"></i></div>
+              <div class="col-4 col-lg-10"><a href="mailto:info@bermuda.io">info@bermuda.io</a></div>
+            </div>
+            <h3>Subscribe</h3>
+            <div class="row">
+              <div class="col-1"><i class="icon-rss"></i></div>
+              <div class="col-4 col-lg-10"><a href="http://feedpress.me/bermuda">RSS</a></div>
+            </div>
+            <div class="row">
+              <div class="col-1"><i class="icon-github"></i></div>
+              <div class="col-4 col-lg-10"><a href="https://github.com/bermuda-io">GitHub</a></div>
+            </div>
+            <div class="row">
+              <div class="col-1"><i class="icon-twitter"></i></div>
+              <div class="col-4 col-lg-10"><a href="https://twitter.com/bermudaio">Twitter</a></div>
+            </div>
+            <div class="row">
+              <div class="col-1"><i class="icon-facebook"></i></div>
+              <div class="col-4 col-lg-10"><a href="http://www.facebook.com/Bermuda.io">Facebook</a></div>
+            </div>
+
+          </div><!-- /.sidebar -->
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+    <footer class="footer">
+      <div class="navbar navbar-fixed-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+              <small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</small>
+            </div>
+          </div>
+
         </div>
       </div>
     </footer>
