@@ -1,2 +1,2 @@
-bermuda-io.github.io
-====================
+blog.bermuda.io
+===============
