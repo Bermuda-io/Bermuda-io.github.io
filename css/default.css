@@ -36,3 +36,7 @@ article time {
   font-size: 120%;
   padding-top: 14px;
 }
+
+ul {
+  margin: 0 0 10px;
+}
