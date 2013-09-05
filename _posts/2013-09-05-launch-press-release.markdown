@@ -24,18 +24,19 @@ Bermuda
 
 The developers of Bermuda.io have started with these documents because they go to the heart of the operations of Government. The Budget Book details planned revenue and spending, while the audited financials of the Consolidated Fund show the actual figures. The Auditor General's report provides an independent opinion on the government's financial management. Finally, the Digest of Statistics and the Census report contain economic and demographic data which provide important context.
 
-Bound copies of each report, some running to 400 pages, sit on the shelves of The Bermuda National Library and the Bermuda Archives. Members of the public can use the documents there, but cannot take them home. In contrast, visitors to the Bermuda.io website can freely view documents online or download the searchable files at any time, anywhere.
+Bound copies of each report, some running to 400 pages, sit on the shelves of [The Bermuda National Library](http://www.bnl.bm/) and the [Bermuda Archives](http://www.gov.bm/portal/server.pt?open=512&objID=429&mode=2). Members of the public can use the documents there, but cannot take them home. In contrast, visitors to the Bermuda.io website can freely view documents online or download the searchable files at any time, anywhere.
 
 Andrew Simons says: "The documents we've scanned and put online are full of facts. They answer questions like 'What's the revenue from lobster licences each season?', 'What school renovations are planned for the following year?' and 'How much does a firefighter earn?'
+
 Bermuda.io makes these documents available to the man in the street anytime, anywhere. With just a smartphone, you can answer your own questions. Facts should improve debates in the House of the Assembly and at the kitchen table. Answers beget further questions and, I hope, deeper engagement with important issues on the island."
 
 The developers plan to publish a wide range of public data in both human and machine readable formats. They are currently compiling two decades worth of financial statements from all of the government controlled organizations and public funds.
 
-Louis Galipeau says: "The website is powered by the free software CKAN, the same software that powers data.gov and data.gov.uk, the open data websites of the governments of the USA and UK respectively. In addition Bermuda.io also makes use of DocumentCloud a website that enables journalists and researchers to store and share original source materials. DocumentCloud is used by news organisations such as the BBC, New York Times, and 60 Minutes."
+Louis Galipeau says: "The website is powered by the free software [CKAN](http://ckan.org/), the same software that powers [data.gov](http://www.data.gov/) and [data.gov.uk](http://data.gov.uk/), the open data websites of the governments of the USA and UK respectively. In addition Bermuda.io also makes use of [DocumentCloud](https://www.documentcloud.org) a website that enables journalists and researchers to store and share original source materials. DocumentCloud is used by news organisations such as the BBC, New York Times, and 60 Minutes."
 
 Bermuda.io is an independent initiative. It is neither funded by nor associated with the Bermuda Government or any political organization. Persons can keep up with the work of Bermuda.io by following the blog. The developers welcome feedback.
 
-The developers wish to thank the staff of the following organizations for providing spare copies of documents to scan: the office of the Auditor General, the Bermuda College Library, the Bermuda National Library, the Department of Statistics, and the Ministry of Finance.
+The developers wish to thank the staff of the following organizations for providing spare copies of documents to scan: the [office of the Auditor General](http://www.gov.bm/portal/server.pt?open=512&objID=235&&PageID=351&activetab=TabCTRL_DropDownTabsGovernment1&mode=2), [the Bermuda College Library](http://www.bercol.bm/services/library), [the Bermuda National Library](http://www.bnl.bm/), [the Department of Statistics](http://www.govsubportal.com/ministries/2012-02-10-14-05-02/cabinet-office/statistics/), and the [Ministry of Finance](http://www.gov.bm/portal/server.pt?open=512&objID=935&mode=2&in_hi_userid=2&cached=true).
 
 ### Short Biographies
 
