@@ -5,7 +5,7 @@ title: Blog Posts
 
 
 {% for post in paginator.posts %}
-<div>
+<div class="post-on-index">
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p><time datetime="{{post.date | date: "%Y-%m-%d"}}" title="{{post.date | date: "%Y-%m-%d"}}"><i class="icon-calendar"></i> {{post.date | date: "%B %Y"}}</time></p>
   {% if post.id == site.posts.first.id %}
@@ -16,6 +16,7 @@ title: Blog Posts
 
 <!-- Pagination links -->
 <div id="post-pagination" class="text-center">
+  {% if paginator.total_pages > 1 %}
   <ul class="pagination">
     {% if paginator.previous_page %}
       <li>
@@ -49,4 +50,5 @@ title: Blog Posts
       <li class="disabled"><span>&raquo;</span></li>
     {% endif %}
   </ul>
+  {% endif %}
 </div>

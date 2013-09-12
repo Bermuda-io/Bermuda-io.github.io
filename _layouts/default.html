@@ -13,7 +13,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feedpress.me/bermuda">
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 
@@ -35,98 +35,108 @@
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top">
-      <div class="container">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="http://bermuda.io"><img src="/images/bermuda-io-ckan.png" alt=""></a>
-        <div class="nav-collapse collapse">
-          <ul class="nav navbar-nav navbar-bermuda">
-            <li><a href="/">Blog</a></li>
-            <li><a href="/categories.html">Categories</a></li>
-            <li><a href="/archives.html">Archives</a></li>
-            <li><a href="/references.html">References</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+    <div id="wrap">
+      <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://bermuda.io"><img src="/images/bermuda-io-ckan.png" alt=""></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav navbar-bermuda">
+                <li><a href="/">Blog</a></li>
+                <li><a href="/categories.html">Categories</a></li>
+                <li><a href="/archives.html">Archives</a></li>
+                <li><a href="/references.html">References</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+      <div class="container" role="main">
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="page-header">
+              <h1>{{ page.title }}</h1>
+            </div>
+
+            {{ content }}
+          </div>
+          <div class="col-lg-4">
+            <div class="sidebar">
+              <h3>Contact Us</h3>
+              <div class="row">
+                <div class="col-xs-1 col-lg-1"><i class="icon-envelope"></i></div>
+                <div class="col-xs-4 col-lg-10"><a href="mailto:info@bermuda.io">info@bermuda.io</a></div>
+              </div>
+              <h3>Subscribe</h3>
+              <div class="row">
+                <div class="col-xs-1 col-lg-1"><i class="icon-rss"></i></div>
+                <div class="col-xs-4 col-lg-10"><a href="http://feedpress.me/bermuda">RSS</a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1 col-lg-1"><i class="icon-twitter"></i></div>
+                <div class="col-xs-4 col-lg-10"><a href="https://twitter.com/bermudaio">Twitter</a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1 col-lg-1"><i class="icon-facebook"></i></div>
+                <div class="col-xs-4 col-lg-10"><a href="http://www.facebook.com/Bermuda.io">Facebook</a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1 col-lg-1"><i class="icon-youtube"></i></div>
+                <div class="col-xs-4 col-lg-10"><a href="http://www.youtube.com/Bermudaio">Youtube</a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1 col-lg-1"><i class="icon-cloud"></i></div>
+                <div class="col-xs-4 col-lg-10"><a href="https://soundcloud.com/bermuda-io">Soundcloud</a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1 col-lg-1"><i class="icon-google-plus-sign"></i></div>
+                <div class="col-xs-4 col-lg-10"><a href="https://plus.google.com/u/0/108407014284010301934/posts">Google+</a></div>
+              </div>
+              <div class="row">
+                <div class="col-xs-1 col-lg-1"><i class="icon-github"></i></div>
+                <div class="col-xs-4 col-lg-10"><a href="https://github.com/bermuda-io">GitHub</a></div>
+              </div>
+            </div><!-- /.sidebar -->
+          </div>
+        </div>
+
       </div>
     </div>
 
-    <div class="main-body container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="page-header">
-            <h1>{{ page.title }}</h1>
+
+
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+            <small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</small>
           </div>
-
-          {{ content }}
-        </div>
-        <div class="col-lg-4">
-          <div class="sidebar">
-            <h3>Contact Us</h3>
-            <div class="row">
-              <div class="col-1"><i class="icon-envelope"></i></div>
-              <div class="col-4 col-lg-10"><a href="mailto:info@bermuda.io">info@bermuda.io</a></div>
-            </div>
-            <h3>Subscribe</h3>
-            <div class="row">
-              <div class="col-1"><i class="icon-rss"></i></div>
-              <div class="col-4 col-lg-10"><a href="http://feedpress.me/bermuda">RSS</a></div>
-            </div>
-            <div class="row">
-              <div class="col-1"><i class="icon-twitter"></i></div>
-              <div class="col-4 col-lg-10"><a href="https://twitter.com/bermudaio">Twitter</a></div>
-            </div>
-            <div class="row">
-              <div class="col-1"><i class="icon-facebook"></i></div>
-              <div class="col-4 col-lg-10"><a href="http://www.facebook.com/Bermuda.io">Facebook</a></div>
-            </div>
-            <div class="row">
-              <div class="col-1"><i class="icon-youtube"></i></div>
-              <div class="col-4 col-lg-10"><a href="http://www.youtube.com/Bermudaio">Youtube</a></div>
-            </div>
-            <div class="row">
-              <div class="col-1"><i class="icon-cloud"></i></div>
-              <div class="col-4 col-lg-10"><a href="https://soundcloud.com/bermuda-io">Soundcloud</a></div>
-            </div>
-            <div class="row">
-              <div class="col-1"><i class="icon-google-plus-sign"></i></div>
-              <div class="col-4 col-lg-10"><a href="https://plus.google.com/u/0/108407014284010301934/posts">Google+</a></div>
-            </div>
-            <div class="row">
-              <div class="col-1"><i class="icon-github"></i></div>
-              <div class="col-4 col-lg-10"><a href="https://github.com/bermuda-io">GitHub</a></div>
-            </div>
-
-
-          </div><!-- /.sidebar -->
         </div>
       </div>
-    </div><!-- /.container -->
-
-    <footer class="footer">
-      <div class="navbar navbar-fixed-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
-              <small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</small>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </footer>
+    </div>
 
     <!-- JavaScript plugins (requires jQuery) -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
     <!-- Optionally enable responsive features in IE8 -->
-    <script src="js/respond.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.min.js"></script>
   </body>
 </html>
