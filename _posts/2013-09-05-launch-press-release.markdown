@@ -13,7 +13,7 @@ category: news
 
 **HAMILTON, Bermuda, September 5, 2013** &mdash; Today Louis Galipeau and Andrew Simons announced the launch of Bermuda.io, an online repository of Bermuda public data. The website makes this information easy to search, access, and share at no cost to the user.
 
-Bermuda.io is part of a global trend toward open data, using technology to provide greater access by the public to information. At present, the website contains collections of key public Government documents covering at least twenty years. Included are:
+Bermuda.io is part of a global trend toward open data, using technology to provide the public with greater access to information. At present, the website contains collections of key public Government documents covering at least twenty years. Included are:
 
 * The annual report of the Auditor General
 * The "Budget Book" (Estimates of Revenue and Expenditure for the Year)
