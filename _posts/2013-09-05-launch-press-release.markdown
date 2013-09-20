@@ -17,8 +17,7 @@ Bermuda.io is part of a global trend toward open data, using technology to provi
 
 * The annual report of the Auditor General
 * The "Budget Book" (Estimates of Revenue and Expenditure for the Year)
-* The audited financial statements of the Consolidated Fund of The Government of
-Bermuda
+* The audited financial statements of the Consolidated Fund of The Government of Bermuda
 * The Bermuda Digest of Statistics
 * The Census Report
 
@@ -28,7 +27,7 @@ Bound copies of each report, some running to 400 pages, sit on the shelves of [T
 
 Andrew Simons says: "The documents we've scanned and put online are full of facts. They answer questions like 'What's the revenue from lobster licences each season?', 'What school renovations are planned for the following year?' and 'How much does a firefighter earn?'
 
-Bermuda.io makes these documents available to the man in the street anytime, anywhere. With just a smartphone, you can answer your own questions. Facts should improve debates in the House of the Assembly and at the kitchen table. Answers beget further questions and, I hope, deeper engagement with important issues on the island."
+Bermuda.io makes these documents available to the person in the street anytime, anywhere. With just a smartphone, you can answer your own questions. Facts should improve debates in the House of the Assembly and at the kitchen table. Answers beget further questions and, I hope, deeper engagement with important issues on the island."
 
 The developers plan to publish a wide range of public data in both human and machine readable formats. They are currently compiling two decades worth of financial statements from all of the government controlled organizations and public funds.
 
