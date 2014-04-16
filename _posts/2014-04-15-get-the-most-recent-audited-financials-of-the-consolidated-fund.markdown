@@ -34,7 +34,7 @@ So have you ever wondered how much...
   * _(source: Schedule 8: Revenue By Type)_
 
  3. **have we paid commercial airlines to maintain regular scheduled air service to Bermuda over the past two years?**
-  * $3.4M
+  * $3.4 million
   * _(source: 10. Contingent Liabilities (cont’d) (e) Air Service Agreements)_
 
 ### Look beyond summaries and press releases to find the details about how your tax dollars were spent. Think about how the numbers have changed over time.
