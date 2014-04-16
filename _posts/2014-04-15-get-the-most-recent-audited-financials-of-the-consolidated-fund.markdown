@@ -26,12 +26,17 @@ In case you're interested you can also access the previous [20 years of Consolid
 So have you ever wondered how much...
 
   1. **the Department of Education _actually_ spent between April 2012 and March 2013?**
+
     * $117 million
     * _(source: Schedule 10(b): Current Expenses By Ministry / Department)_
+
   2. **the PTB collected in bus fares? What about the ferries?**
+
     * $7.7 million / $1.8 million
     * _(source: Schedule 8: Revenue By Type)_
+
   3. **have we paid commercial airlines to maintain regular scheduled air service to Bermuda over the past two years?**
+
     * $3.4M
     * _(source: 10. Contingent Liabilities (cont’d) (e) Air Service Agreements)_
 
