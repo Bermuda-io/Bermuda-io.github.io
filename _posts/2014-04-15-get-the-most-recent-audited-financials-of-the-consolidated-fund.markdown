@@ -17,7 +17,7 @@ See press accounts with comments from the Minister and Shadow Minister:
 
 ---
 
-## Download the [2012 - 2013 Consolidated Fund audited financials](http://bermuda.io/dataset/consolidated-fund-audited-financials/resource/a276a41e-3aa6-4f7a-9609-7e43c7a54037)
+### Download the [2012 - 2013 Consolidated Fund audited financials](http://bermuda.io/dataset/consolidated-fund-audited-financials/resource/a276a41e-3aa6-4f7a-9609-7e43c7a54037)
 
 In case you're interested you can also access the previous [20 years of Consolidate Fund financials](http://bermuda.io/dataset/consolidated-fund-audited-financials).
 
@@ -37,4 +37,4 @@ So have you ever wondered how much...
   * $3.4M
   * _(source: 10. Contingent Liabilities (cont’d) (e) Air Service Agreements)_
 
-## Look beyond summaries and press releases to find the details about how your tax dollars were spent. Think about how the numbers have changed over time.
+### Look beyond summaries and press releases to find the details about how your tax dollars were spent. Think about how the numbers have changed over time.
